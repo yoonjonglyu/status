@@ -1,0 +1,23 @@
+{
+  "model_version": "0.1.0",
+  "dimensions": [
+    {
+      "id": "physical",
+      "base_decay": 0.002,
+      "substats": [
+        { "id": "strength", "weight": 1.2 },
+        { "id": "endurance", "weight": 1.0 },
+        { "id": "mobility", "weight": 0.8 }
+      ]
+    },
+    {
+      "id": "cognitive",
+      "base_decay": 0.001,
+      "substats": [
+        { "id": "focus", "weight": 1.3 },
+        { "id": "memory", "weight": 1.1 },
+        { "id": "problem_solving", "weight": 1.5 }
+      ]
+    }
+  ]
+}
